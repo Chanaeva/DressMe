@@ -1,13 +1,22 @@
+h3 {
+    font-family: 'Amatic SC', cursive;
+}
+
 a {
-    font-family: 'Crimson Text', serif;
+    font-family: 'Amatic SC', cursive;
 }
 
-.dropdown-button {
+.logo-img {
+    max-height: 100%;
+}
+
+.dropdown-menu {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 10%;
 }
 
-.container {
-    /*width: 100vw;*/
-    /*margin: 0;*/
+.nav-bar-container {
+    height: 20vh;
 }
