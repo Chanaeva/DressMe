@@ -1,0 +1,13 @@
+a {
+    font-family: 'Crimson Text', serif;
+}
+
+.dropdown-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    /*width: 100vw;*/
+    /*margin: 0;*/
+}
