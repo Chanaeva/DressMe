@@ -1,9 +1,13 @@
 h3 {
     font-family: 'Amatic SC', cursive;
+    font-family: 'Gilda Display', serif;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 a {
     font-family: 'Amatic SC', cursive;
+    font-family: 'Gilda Display', serif;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .logo-img {
@@ -12,9 +16,14 @@ a {
 
 .dropdown-menu {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    flex-direction: column-reverse;
+    justify-content: space-between;
     padding-top: 10%;
+}
+
+#dropdown1 {
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav-bar-container {
