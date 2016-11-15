@@ -18,6 +18,8 @@ $(document).ready(function() {
     });
 
 
+
+
     var key = "uid2496-36840364-7"
     var search = ["womens-tops", "womens-pants", "shoes", "bags"]
     var url = "http://api.shopstyle.com/api/v2/products?pid="

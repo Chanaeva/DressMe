@@ -15,9 +15,6 @@ a {
 }
 
 .input-field {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     padding: 1em;
     margin: 1em;
     padding-left: 5em;
