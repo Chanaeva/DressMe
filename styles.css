@@ -14,16 +14,16 @@ a {
     max-height: 100%;
 }
 
-.dropdown-menu {
+.input-field {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
     justify-content: space-between;
-    padding-top: 10%;
-}
-
-#dropdown1 {
-    display: flex;
-    justify-content: space-between;
+    padding: 10em;
+    margin: 1em;
+    padding-left: 5em;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Gilda Display', serif;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .nav-bar-container {

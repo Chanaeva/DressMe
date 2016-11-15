@@ -14,10 +14,10 @@
 <body>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
 
     <div class="container grey lighten-2">
         <div class="row">
-
 
             <nav>
                 <div class="nav-wrapper white">
@@ -30,39 +30,39 @@
 
 
             <main>
+
                 <h3 class="h3 center">Create A Rad Outfit</h3>
-                <section class="col s6 dropdown-menu">
-                    <div>
-                        <a class='dropdown-button btn grey' href='#' data-activates='dropdown1'>Tops</a>
-                        <ul id='dropdown1' class='dropdown-content'>
-                            <li><a href="#!">s</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#!">m</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#!">l</a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <a class='dropdown-button btn grey' href='#' data-activates='dropdown1'>Bottoms</a>
-                        <ul id='dropdown1' class='dropdown-content grey'>
-                            <li><a href="#!">s</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#!">m</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#!">l</a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <a class='dropdown-button btn grey' href='#' data-activates='dropdown1'>Price</a>
-                        <ul id='dropdown1' class='dropdown-content'>
-                            <li><a href="#!">s</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#!">m</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#!">l</a></li>
-                        </ul>
-                    </div>
-                </section>
+
+
+                <div class="input-field col s3">
+                    <select class="topSize">
+                          <option value="" disabled selected>Top Size</option>
+                          <option value="1">Small</option>
+                          <option value="2">Medium</option>
+                          <option value="3">Large</option>
+                        </select>
+                </div>
+                <div class="input-field col s3">
+                    <select class="bottomSize">
+                          <option value="" disabled selected>Bottom Size</option>
+                          <option value="1">Small</option>
+                          <option value="2">Medium</option>
+                          <option value="3">Large</option>
+                        </select>
+                </div>
+                <div class="input-field col s3">
+                    <select class="price">
+                          <option value="" disabled selected>Price</option>
+                          <option value="1">$100 and up</option>
+                          <option value="2">$100 and under</option>
+                        </select>
+                </div>
+
+
+                <div class="button">
+                    <a class="waves-effect waves-light btn">button</a>
+                </div>
+
 
                 <div class="row">
                     <div class="col s12 push-s5">
@@ -89,7 +89,6 @@
                                 <div class="card">
                                     <div class="card-image">
 
-
                                         <img class="responsive-img" src="https://unsplash.it/g/200/300">
                                     </div>
                                     <div class="card-action">
@@ -100,29 +99,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col s10 left">
-                        <div class="row">
-                            <div class="col s5">
-                                <div class="card">
-                                    <div class="card-image">
-
-
-                                        <img class="responsive-img" src="https://unsplash.it/g/200/300">
-                                    </div>
-                                    <div class="card-action">
-                                        <a class="font" href="#">This is a link</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-
             </main>
         </div>
     </div>
@@ -132,7 +108,7 @@
         <div class="row">
             <div class="col s3 l12">
                 <h5 class="white-text">Footer Content</h5>
-                <p class="grey-text">You can use rows and columns here to organize your footer content.</p>
+                <p class="grey-text"></p>
             </div>
 
         </div>
