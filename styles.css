@@ -4,14 +4,16 @@ h3 {
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-a {
+button {
     font-family: 'Amatic SC', cursive;
     font-family: 'Gilda Display', serif;
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.logo-img {
-    max-height: 100%;
+label {
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Gilda Display', serif;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .input-field {
@@ -23,18 +25,6 @@ a {
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.nav-bar-container {
-    height: 50vh;
-}
-
-.nav {
-    height: 50vh;
-}
-
-.button {
-    padding: 1em;
-    padding-left: 10em;
-}
-
-
+header {
+    max-height: 10vh;
 }
