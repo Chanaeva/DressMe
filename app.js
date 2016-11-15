@@ -19,7 +19,7 @@ $(document).ready(function() {
 
 
     var key = "uid2496-36840364-7"
-    var search = ["womens-tops", "pants", "shoes", "bags"]
+    var search = ["womens-tops", "womens-pants", "shoes", "bags"]
     var url = "http://api.shopstyle.com/api/v2/products?pid="
 
     $('button').click(function() {
@@ -32,6 +32,7 @@ $(document).ready(function() {
             var id = productList.products[0].id
             $.get("http://api.shopstyle.com/api/v2/products/" + id + "?pid=uid2496-36840364-7", function(product) {
                 console.log(product);
+
             })
         });
 

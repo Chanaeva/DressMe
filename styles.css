@@ -15,9 +15,9 @@ a {
 }
 
 .input-field {
-    /*display: flex;
-    flex-direction: row;
-    justify-content: space-between;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 1em;
     margin: 1em;
     padding-left: 5em;
@@ -27,11 +27,16 @@ a {
 }
 
 .nav-bar-container {
-    height: 20vh;
+    height: 50vh;
+}
+
+.nav {
+    height: 50vh;
 }
 
 .button {
     padding: 1em;
+    padding-left: 10em;
 }
 
 
