@@ -15,10 +15,10 @@ a {
 }
 
 .input-field {
-    display: flex;
+    /*display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding: 10em;
+    justify-content: space-between;*/
+    padding: 1em;
     margin: 1em;
     padding-left: 5em;
     font-family: 'Amatic SC', cursive;
@@ -28,4 +28,11 @@ a {
 
 .nav-bar-container {
     height: 20vh;
+}
+
+.button {
+    padding: 1em;
+}
+
+
 }
