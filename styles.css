@@ -27,3 +27,7 @@ label {
   font-family: 'Gilda Display', serif;
   font-family: 'Open Sans Condensed', sans-serif;
 }
+
+  .pics {
+    border: 2px solid;
+  }

@@ -21,10 +21,19 @@
                  //  console.log(productList);
                  var randomIndex = Math.floor(Math.random() * productList.products.length);
 
-                 console.log(productList.products[randomIndex].image.sizes.Best.url);
+                 var imageUrl = (productList.products[randomIndex].image.sizes.Best.url);
+
+                 $('section.imgUrl').append(
+                     '<div class="col s4">' +
+                     '<img class="responsive-img" src="' + imageUrl + '">' +
+                     '</div>'
+                 );
+
 
 
              });
+
+
 
          }
 
