@@ -14,18 +14,16 @@
              //  inputInfo.push($('price').val())
 
 
-         var length = 4;
+         var length = 3;
 
          for (var i = 0; i < length; i++) {
              $.get(url + key + "&fts=" + inputInfo[i] + "&offset=0&limit=10", function(productList) {
-                 console.log(productList);
+                 //  console.log(productList);
+                 var randomIndex = Math.floor(Math.random() * productList.products.length);
+
+                 console.log(productList.products[randomIndex].image.sizes.Best.url);
 
 
-                 var id = productList.products[0].id
-                 $.get("http://api.shopstyle.com/api/v2/products/" + id + "?pid=uid2496-36840364-7", function(product) {
-                     console.log(product);
-
-                 })
              });
 
          }
