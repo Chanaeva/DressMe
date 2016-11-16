@@ -17,14 +17,7 @@ label {
 }
 
 .input-field {
-    padding: 1em;
-    margin: 1em;
-    padding-left: 5em;
     font-family: 'Amatic SC', cursive;
     font-family: 'Gilda Display', serif;
     font-family: 'Open Sans Condensed', sans-serif;
-}
-
-header {
-    max-height: 10vh;
 }

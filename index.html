@@ -20,8 +20,7 @@
 
 
         <header class="row grey lighten-3">
-
-            <img class="logo-img right " src="Logomakr_0aXZRY.png " alt="logo " />
+            <img class="logo-img right responsive-img" src="Logomakr_0aXZRY.png" alt="logo" />
             <h3 class="h3 center grey-text">Create A Rad Outfit</h3>
             <h4 class="h3 center grey-text"></h4>
         </header>
@@ -30,37 +29,62 @@
 
             <div class "row">
 
-                <div class="input-field col s4 ">
+                <div class="input-field col s6">
+                    <select>
+      <option value="" disabled selected></option>
+      <option value="1">Tops</option>
+      <option value="2">Tees</option>
+      <option value="3">Sweaters</option>
+                   </select>
                     <label>Pick A Top</label>
-                    <input type="text" class="topCat">
-                </div>
-                <div class="input-field col s4">
-                    <label>Pick A Bottom</label>
-                    <input type="text" class="bottomCat">
                 </div>
 
-                <div class="input-field col s4 ">
-                    <select class="price ">
-                          <option value=" " disabled selected>Set A Price</option>
-                          <option value="1 ">$100 and up</option>
-                          <option value="2 ">$100 and under</option>
-                        </select>
+
+                <div class="input-field col s6">
+                    <select>
+        <option value="" disabled selected></option>
+        <option value="1">Skirts</option>
+        <option value="2">Jeans</option>
+        <option value="3">Pants</option>
+                   </select>
+                    <label>Pick a Bottom</label>
                 </div>
 
+
+                <div class="input-field col s6">
+                    <select>
+        <option value="" disabled selected></option>
+        <option value="1">Boots</option>
+        <option value="2">Heels</option>
+        <option value="3">Sneakers</option>
+                    </select>
+                    <label>Shoes</label>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="pricepicker col s6">
+                <form action="pricepicker purple lighten-4">
+                    <p class="range-field">
+                        <input type="range" id="test5" min="0" max="1000" />
+                    </p>
+                </form>
+                <label>Price Range</label>
+              </div>
+            </div>
+
+                <div class="col s3">
                 <div class="button">
                     <button class="waves-effect waves-purple lighten-4 btn black-text white btn-large ">Create</button>
                 </div>
             </div>
-
-
         </main>
-
     </div>
 </body>
-<footer class="page-footer white ">
+<footer class="page-footer white">
     <div class="container ">
         <div class="row ">
-            <div class="col s3 l12 ">
+            <div class="col s3 l12">
                 <h5 class="white-text ">Footer Content</h5>
                 <p class="grey-text "></p>
             </div>
@@ -68,9 +92,9 @@
         </div>
     </div>
     <div class="footer-copyright ">
-        <div class="container ">
+        <div class="container">
             © 2014 Copyright Text
-            <a class="black-text right " href="#! ">More Links</a>
+            <a class="black-text right" href="#!">More Links</a>
         </div>
     </div>
 </footer>
