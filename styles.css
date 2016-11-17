@@ -29,13 +29,17 @@ label {
 }
 
 .imgUrl {
- margin: 0 auto;
- margin-top: 20%;
+    margin: 0 auto;
+    margin-top: 20%;
 }
 
-.theStuff {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+
+
+
+#main-Header {
+    height: 10em;
+}
+
+.logo-img {
+    max-height: 10em;
 }

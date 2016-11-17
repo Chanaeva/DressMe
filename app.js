@@ -5,13 +5,13 @@
      var inputInfo = [];
 
      var key = "uid2496-36840364-7";
-     var url = "http://api.shopstyle.com/api/v2/products?pid=";
+     var url = "https://api.shopstyle.com/api/v2/products?pid=";
 
      $('button').click(function() {
          inputInfo.push($('.topCat').val())
          inputInfo.push($('.bottomCat').val())
          inputInfo.push($('.shoeCat').val())
-             //  inputInfo.push($('price').val())
+
 
 
          var length = 3;
@@ -28,6 +28,11 @@
                      '<div class="col s4">' +
                      '<a href= "'+ clickUrl + '"><img class="responsive-img" src="' + imageUrl + '"></a>' +
                      '</div>'
+
+                 );
+
+                 $('section.note').append(
+                   '<p>Click the images for more information</p>'
                  );
              });
          }

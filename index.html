@@ -17,100 +17,101 @@
     <script type="text/javascript" src="app.js"></script>
 
     <div class="container">
+        <div class="row">
 
 
-        <header class="row grey lighten-3">
-            <img class="logo-img right responsive-img" src="Logomakr_0aXZRY.png" alt="logo" />
-            <h3 class="h3 center grey-text">Create A Rad Outfit</h3>
-            <h4 class="h3 center grey-text"></h4>
-        </header>
+            <header id="main-Header" class="row grey lighten-3">
+                <img class="logo-img right responsive-img" src="Logomakr_0aXZRY.png" alt="logo" />
+                <h3 class="h3 center grey-text">Create A Rad Outfit</h3>
+                <h4 class="h3 center grey-text"></h4>
+            </header>
 
-        <main>
-            <section class="theStuff">
-                <div class="row">
+            <main>
 
-                    <div class "space col s2">
+                <section class="row theStuff">
+
+                    <div class="row">
+                        <div class="col s2"></div>
+                        <div class="input-field col s8">
+                            <select class="topCat browser-default">
+                          <option value="" disabled selected>Pick A Top</option>
+                          <option value="Tops">Tops</option>
+                          <option value="Tee">Tees</option>
+                          <option value="Sweaters">Sweaters</option>
+                       </select>
+                            <label></label>
+                        </div>
                     </div>
-
-                    <div class="input-field col s3 l12">
-                        <select class="topCat browser-default">
-                        <option value="" disabled selected>Pick A Top</option>
-                        <option value="Tops">Tops</option>
-                        <option value="Tee">Tees</option>
-                        <option value="Sweaters">Sweaters</option>
-                     </select>
-                        <label></label>
-                    </div>
-
-                    <div class="input-field col s3 l12">
-                        <select class="bottomCat browser-default">
+                    <div class="row">
+                        <div class="col s2"></div>
+                        <div class="input-field col s8">
+                            <select class="bottomCat browser-default">
                       <option value="" disabled selected>Pick A Bottom</option>
                       <option value="Skirts">Skirts</option>
                       <option value="Jeans">Jeans</option>
                       <option value="Pants">Pants</option>
                            </select>
-                        <label></label>
+                            <label></label>
+                        </div>
                     </div>
 
-                    <div class="input-field col s3 l12">
-                        <select class="shoeCat browser-default">
+                    <div class="row">
+                        <div class="col s2"></div>
+                        <div class="input-field col s8">
+                            <select class="shoeCat browser-default">
                       <option value="" disabled selected>Pick Shoes</option>
                       <option value="Boots">Boots</option>
                       <option value="Heels">Heels</option>
                       <option value="Sneakers">Sneakers</option>
                             </select>
-                        <label></label>
+                            <label></label>
+                        </div>
                     </div>
 
-                    <div class "space col s2">
+                    <div class "row">
+                        <div class="col s2"></div>
+                        <div class="pricepicker col s8">
+                            <label>Pick A Price Range</label>
+                            <form action="pricepicker center-align">
+                                <p class="range-field">
+                                    <input type="range" id="test5" min="$20" max="$100" />
+                                </p>
+                            </form>
+                        </div>
                     </div>
-
-
-                    <div class="pricepicker col s8 l12">
-                        <label class="center">Pick A Price Range</label>
-                        <form action="pricepicker center-align">
-                            <p class="range-field">
-                                <input type="range" id="test5" min="$20" max="$100" />
-                            </p>
-
-                        </form>
+                    <div class="row">
+                        <div class="col m2"></div>
+                        <div class="button col s12 center-align">
+                            <button class="waves-effect waves-purple lighten-4 btn black-text white btn-large ">Create</button>
+                        </div>
                     </div>
+                </section>
 
-                    <div class="col s2">
+                <div class="row">
+                    <div class="col s12">
+                        <div class="note"></div>
+
+                        <section class="imgUrl">
+                        </section>
                     </div>
-
-
-                    <div class="button col s8 l12">
-                        <button class="waves-effect waves-purple lighten-4 btn black-text white btn-large ">Create</button>
-                    </div>
-
                 </div>
-            </section>
+            </main>
 
-            <div class="row">
-                <div class="col s3 l12">
-                    <section class="imgUrl">
-                    </section>
-                </div>
-            </div>
-
-        </main>
-    </div>
 </body>
 <footer class="page-footer white">
     <div class="container ">
         <div class="row ">
             <div class="col s3 l12">
-                <h5 class="white-text ">Footer Content</h5>
-                <p class="grey-text "></p>
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text"></p>
             </div>
 
         </div>
     </div>
     <div class="footer-copyright ">
         <div class="container">
-            © 2014 Copyright Text
-            <a class="black-text right" href="#!">More Links</a>
+            © 2016 Copyright Text
+            <a class="black-text right" href="#!">More Stuff</a>
         </div>
     </div>
 
