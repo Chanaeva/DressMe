@@ -26,62 +26,73 @@
         </header>
 
         <main>
+            <section class="theStuff">
+                <div class="row">
 
-            <div class "row">
+                    <div class "space col s2">
+                    </div>
 
-                <div class="input-field col s3">
-                    <select class="topCat browser-default">
-                      <option value="" disabled selected>Pick A Top</option>
-                      <option value="Tops">Tops</option>
-                      <option value="Tee">Tees</option>
-                      <option value="Sweaters">Sweaters</option>
-                   </select>
-                    <label></label>
+                    <div class="input-field col s3 l12">
+                        <select class="topCat browser-default">
+                        <option value="" disabled selected>Pick A Top</option>
+                        <option value="Tops">Tops</option>
+                        <option value="Tee">Tees</option>
+                        <option value="Sweaters">Sweaters</option>
+                     </select>
+                        <label></label>
+                    </div>
+
+                    <div class="input-field col s3 l12">
+                        <select class="bottomCat browser-default">
+                      <option value="" disabled selected>Pick A Bottom</option>
+                      <option value="Skirts">Skirts</option>
+                      <option value="Jeans">Jeans</option>
+                      <option value="Pants">Pants</option>
+                           </select>
+                        <label></label>
+                    </div>
+
+                    <div class="input-field col s3 l12">
+                        <select class="shoeCat browser-default">
+                      <option value="" disabled selected>Pick Shoes</option>
+                      <option value="Boots">Boots</option>
+                      <option value="Heels">Heels</option>
+                      <option value="Sneakers">Sneakers</option>
+                            </select>
+                        <label></label>
+                    </div>
+
+                    <div class "space col s2">
+                    </div>
+
+
+                    <div class="pricepicker col s8 l12">
+                        <label class="center">Pick A Price Range</label>
+                        <form action="pricepicker center-align">
+                            <p class="range-field">
+                                <input type="range" id="test5" min="$20" max="$100" />
+                            </p>
+
+                        </form>
+                    </div>
+
+                    <div class="col s2">
+                    </div>
+
+
+                    <div class="button col s8 l12">
+                        <button class="waves-effect waves-purple lighten-4 btn black-text white btn-large ">Create</button>
+                    </div>
+
                 </div>
-
-
-                <div class="input-field col s3">
-                    <select class="bottomCat browser-default">
-        <option value="" disabled selected>Pick A Bottom</option>
-        <option value="Skirts">Skirts</option>
-        <option value="Jeans">Jeans</option>
-        <option value="Pants">Pants</option>
-                   </select>
-                    <label></label>
-                </div>
-
-
-                <div class="input-field col s3 ">
-                    <select class="shoeCat browser-default">
-        <option value="" disabled selected>Pick Shoes</option>
-        <option value="Boots">Boots</option>
-        <option value="Heels">Heels</option>
-        <option value="Sneakers">Sneakers</option>
-                    </select>
-                    <label></label>
-                </div>
-            </div>
+            </section>
 
             <div class="row">
-                <div class="pricepicker col s6">
-                    <form action="pricepicker purple lighten-4">
-                        <p class="range-field">
-                            <input type="range" id="test5" min="0" max="1000" />
-                        </p>
-                    </form>
-                    <label>Price Range</label>
+                <div class="col s3 l12">
+                    <section class="imgUrl">
+                    </section>
                 </div>
             </div>
-
-            <div class="col s3">
-                <div class="button">
-                    <button class="waves-effect waves-purple lighten-4 btn black-text white btn-large ">Create</button>
-                </div>
-            </div>
-
-            <section class="row imgUrl">
-
-            </section>
 
         </main>
     </div>
@@ -102,6 +113,7 @@
             <a class="black-text right" href="#!">More Links</a>
         </div>
     </div>
+
 </footer>
 
 </html>

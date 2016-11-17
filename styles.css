@@ -23,11 +23,19 @@ label {
 }
 
 .topCat.browser-default {
-  font-family: 'Amatic SC', cursive;
-  font-family: 'Gilda Display', serif;
-  font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Gilda Display', serif;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
-  .pics {
-    border: 2px solid;
-  }
+.imgUrl {
+ margin: 0 auto;
+ margin-top: 20%;
+}
+
+.theStuff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

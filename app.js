@@ -22,19 +22,14 @@
                  var randomIndex = Math.floor(Math.random() * productList.products.length);
 
                  var imageUrl = (productList.products[randomIndex].image.sizes.Best.url);
+                 var clickUrl = (productList.products[randomIndex].clickUrl)
 
                  $('section.imgUrl').append(
                      '<div class="col s4">' +
-                     '<img class="responsive-img" src="' + imageUrl + '">' +
+                     '<a href= "'+ clickUrl + '"><img class="responsive-img" src="' + imageUrl + '"></a>' +
                      '</div>'
                  );
-
-
-
              });
-
-
-
          }
 
      });
